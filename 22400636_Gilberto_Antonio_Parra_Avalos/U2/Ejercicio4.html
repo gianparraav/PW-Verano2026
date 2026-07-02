@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+
+    <header>
+        <h2 id="inicio">Instituto Tecnologico de Tepic</h2>
+        <h4>Tecnologico Nacional de Mexico</h4>
+<img width="700" src="https://tse4.mm.bing.net/th/id/OIP.A6L9lkHgJvYLz-OKyWR9CgHaCj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+<nav>
+<a href="#historia">Historia</a>
+<a href="#carreras">Carreras</a>
+<a href="#servicios">Servicios</a>
+<a href="#registros">Registros</a>
+<a href="#contacto">Contacto</a>
+</nav>
+    </header>
+    <main>
+<section Historia id="historia">
+<h2>Historia</h2>
+<p>El Instituto Tecnológico de Tepic forma parte del <strong>Tecnológico Nacional de México</strong> y cuenta con una amplia trayectoria en la formacion de <em>profesionistas</em> comprometidos con el desarrollo del estado de <strong>Nayarit</strong>.<br><br>Actualmente ofrece programas educativos de calidad,promueve la <em>investigacion</em>, la <em>innovacion</em> y el desarrollo tecnologico mediante una formacion integral de sus estudiantes.</p>
+<hr>
+</section Historia>
+<section Oferta Educativa>   
+    <h2>Oferta Educativa</h2>
+    <h3>Ingenierías</h3>
+  <ul>
+    <li>Ingenieria en Sistemas Computacionales</li>
+    <li>Ingenieria en Ingenieria Industrial</li>
+    <li>Ingenieria Civil</li>
+    <li>Ingenieria Mecatronica</li>
+    <li>Ingenieria Bioquimica</li>
+    <li>Ingenieria Electrica</li>
+    </ul>  
+<br>
+<h3>Proceso de Admisión</h3>
+<ol>
+    <li>Solicitar ficha</li>
+    <li>Realizar examen de admision</li>
+    <li>Entregar documentacion</li>
+    <li>Realizar inscripcion</li>
+    <li>Iniciar clases</li>
+</ol>
+<hr>
+</section Oferta Educativa>
+<section Servicios id="servicios">
+<h2>Servicios</h2>
+<table border="1">
+    <tr>
+         <th>Servicio</th>
+         <th>Ubicacion</th>
+         <th>Horario</th>
+     </tr>
+     <tr>
+        <td>Biblioteca</td>
+        <td>Centro de Informacion</td>
+        <td>08:00 - 19:00</td>
+     </tr>
+     <tr>
+        <td>Centro de Computo</td>
+        <td>Edificio Administrativo</td>
+        <td>08:00 - 18:00</td>
+     </tr>
+     <tr>
+        <td>Control Escolar</td>
+        <td>Edificio Administrativo</td>
+        <td>09:00 - 17:00</td>
+     </tr>
+</table>
+<hr>
+</section Servicios>
+
+<section Galeria>
+<img width="300" src="https://th.bing.com/th/id/OIP.uxiq9gNlrBB0x7MLPVwqLQAAAA?w=259&h=161&c=7&r=0&o=7&pid=1.7&rm=3" >
+<img width="300" src="https://tse2.mm.bing.net/th/id/OIP.-666h5haLIc0gi96I3nkKAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3">
+<hr>
+</section Galeria>
+
+<section Registros Aspirantes id="registros">
+<form>
+<fieldset>
+<legend>Datos del Aspirante</legend>
+<table border="1">
+    <tr>
+        <th>Nombre</th>
+        <td><input type="text" name="nombre" required></td>
+        <th>Correo Electronico</th>
+        <td><input type="email" name="correoElectronico" required></td>
+    </tr>
+
+    <tr>
+        <th>Contraseña</th>
+        <td><input type="password" name="contrasena" required></td>
+        <th>Edad</th>
+        <td><input type="number" name="edad" required></td>
+    </tr>
+
+    <tr>
+       <TH>Fecha de Nacimiento</TH> 
+       <td><input type="date" name="fechaNacimiento" required></td>
+       <th>Hora de contacto</th>
+       <td><input type="time" name="horaContacto" required></td>
+    </tr>
+
+    <tr>
+<th>Carrera</th>
+<td><select name="carrera" required>
+    <option value="Ingenieria en Sistemas Computacionales">Ingenieria en Sistemas Computacionales</option>
+    <option value="Ingenieria en Ingenieria Industrial">Ingenieria en Ingenieria Industrial</option>
+    <option value="Ingenieria Civil">Ingenieria Civil</option>
+    <option value="Ingenieria Mecatronica">Ingenieria Mecatronica</option>
+    <option value="Ingenieria Bioquimica">Ingenieria Bioquimica</option>
+    <option value="Ingenieria Electrica">Ingenieria Electrica</option>
+</select></td>
+<th>Semestre</th>
+<td><select name="semestre" required>
+    <option value="1">1°</option>
+    <option value="2">2°</option>
+    <option value="3">3°</option>
+    <option value="4">4°</option>
+    <option value="5">5°</option>
+    <option value="6">6°</option>
+    <option value="7">7°</option>
+    <option value="8">8°</option>
+    <option value="9">9°</option>
+    <option value="10">10°</option>
+</select></td>
+    </tr>
+
+    <tr>
+<th>Turno</th>
+<td><input type="radio" name="turno" value="Matutino" required> Matutino
+    <input type="radio" name="turno" value="Vespertino" required> Vespertino </td>
+    </tr>
+
+    <tr>
+<th>Actividades</th>
+<td><input type="checkbox" name="actividades" value="Deportes"> Deportes
+    <input type="checkbox" name="actividades" value="Musica"> Musica
+    <input type="checkbox" name="actividades" values="Cultura">Cultura
+    </td>
+    </tr>
+
+    <tr>
+<th>Promedio</th>
+<td><input type="range" name="promedio" min="0" max="100" required></td>
+<th>Fotografia</th>
+<td><input type="file" name="fotografia" accept="image/*" required></td>
+    </tr>
+
+    <tr>
+        <th>Comentarios</th>
+        <td><textarea name="comentarios" rows="4" cols="50"></textarea></td>
+    </tr>
+
+    <tr>
+        <th><input type="submit" value="Enviar"></th>
+        <th><input type="reset" value="Limpiar"></th>
+    </tr>
+<hr>
+</table>
+</fieldset>
+</form>
+</section Registros Aspirantes>
+
+<footer >
+<section id="contacto">
+<h2>Contacto</h2>
+<p>Av.Tecnologico No 2595, Lagos del Country, Tepic, Nayarit <br><br> Telefono (311) 2111 9400 <br><br>Correo: contacto@ittepic.edu.mx</p>
+
+<nav>
+<a href="https://www.tepic.tecnm.mx/" target="_blank" title="Ir a Facebook">Sitio Oficial del Instituto tecnologico de tepic</a>
+<a href="#inicio">Volver a Inicio</a>
+</nav>
+
+</section Contacto>
+
+
+
+
+
+
+</footer >
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+</body>
