@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Facebook</title>
+
+</head>
+<body>
+
+<div class="contenedor">
+
+    <section class="letras">
+        <h1>facebook</h1>
+        <p>Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</p>
+    </section>
+
+    <div class="derecha">
+
+        <section class="cuadrado">
+
+            <label>Correo electrónico o número de teléfono</label><br>
+            <input type="text">
+
+            <label>Contraseña</label><br>
+            <input type="password">
+
+            <button class="botonInicio">Iniciar sesión</button>
+
+            <div class="Olvidaste">
+                ¿Olvidaste tu contraseña?
+            </div>
+
+            <hr>
+
+            <div class="botonCrear">
+                <button>Crear cuenta nueva</button>
+            </div>
+
+        </section>
+
+        <p class="final">
+            <strong>Crea una página</strong> para una celebridad, una marca o un negocio.
+        </p>
+
+    </div>
+
+</div>
+
+<style>
+
+body{
+    margin:0;
+    background-color:#f0f2f5;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    gap:80px;
+}
+
+.letras{
+    width:400px;
+}
+
+.letras h1{
+    color:#1877f2;
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+.letras p{
+    font-size:28px;
+}
+
+.derecha{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.cuadrado{
+    background:white;
+    width:330px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px gray;
+}
+
+input{
+    width:100%;
+    height:40px;
+    margin-bottom:15px;
+    border:1px solid gray;
+    border-radius:5px;
+    box-sizing:border-box;
+}
+
+.botonInicio{
+    width:100%;
+    height:40px;
+    background:#1877f2;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+}
+
+.Olvidaste{
+    text-align:center;
+    color:#1877f2;
+    margin:15px 0;
+}
+
+.botonCrear{
+    text-align:center;
+}
+
+.botonCrear button{
+    width:180px;
+    background:#42b72a;
+    color:white;
+    border:none;
+    border-radius:5px;
+    height:40px;
+    font-size:16px;
+}
+
+.final{
+    margin-top:20px;
+    text-align:center;
+}
+
+@media(max-width:768px){
+
+    .contenedor{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .letras{
+        width:90%;
+    }
+
+    .cuadrado{
+        width:90%;
+    }
+
+}
+
+</style>
+
+</body>
+</html>
