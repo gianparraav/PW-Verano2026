@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Steam</title>
+
+<link rel="icon" href="https://cdn.cloudflare.steamstatic.com/store/home/store_home_share.jpg">
+
+</head>
+
+<body>
+
+<section>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" class="logo">
+
+<h1>STEAM</h1>
+
+<br><br><br>
+
+<label>SIGN IN WITH ACCOUNT NAME</label><br>
+
+<input type="text">
+
+<label>PASSWORD</label><br>
+
+<input type="password">
+
+<input type="checkbox">
+
+<label class="remember">Remember me?</label>
+
+<br><br>
+
+<button>SIGN IN</button>
+
+<br><br><br>
+
+<a href="">Help, I can't sign in</a>
+
+</section>
+
+<section class="parteabajo">
+
+<label>OR SIGN IN WITH QR</label>
+
+<br><br>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=Steam" id="qr">
+
+<br><br>
+
+<p>Don't Have a Steam account?</p>
+
+<a href="">Create a Free Account</a>
+
+</section>
+
+</body>
+
+
+<style>
+
+body{
+    margin:0;
+    background-color:#1b2838;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+
+   
+}
+
+section{
+    width:420px;
+}
+
+.logo{
+    width:70px;
+    vertical-align:middle;
+}
+
+h1{
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:10px;
+    margin-top:0;
+    margin-bottom:0;
+    font-size:50px;
+    font-weight:bold;
+}
+
+label{
+    color:#3aa3ff;
+    font-size:13px;
+    font-weight:bold;
+}
+
+input[type=text],
+input[type=password]{
+
+    width:100%;
+    height:45px;
+
+    margin-top:8px;
+    margin-bottom:20px;
+
+    background:#4b5563;
+    color:white;
+
+    border:none;
+    border-radius:8px;
+
+    font-size:18px;
+}
+
+input[type=checkbox]{
+
+    width:18px;
+    height:18px;
+
+}
+
+button{
+
+    width:260px;
+    height:50px;
+
+    background:#4d7cff;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:20px;
+
+}
+
+#qr{
+
+    width:230px;
+
+    border-radius:10px;
+
+    background:white;
+
+}
+
+a{
+
+    color:white;
+
+}
+
+p{
+
+    color:#9da8b5;
+
+}
+
+@media screen and (max-width:900px){
+
+body{
+
+    display:block;
+    text-align:center;
+
+}
+
+section{
+
+    
+    width:90%;
+
+}
+
+#qr{
+
+    margin-top:30px;
+
+}
+
+
+
+.remember{
+    color: white;
+    font-size:16px;
+    font-weight:bold;
+
+}
+}
+.parteabajo{
+    text-align:center;
+}
+</style>
+
+
+</html>
