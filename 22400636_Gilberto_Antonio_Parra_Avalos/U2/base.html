@@ -8,8 +8,8 @@
 <body>
 <h3 id="encabezados">Encabezados</h3>
 <h1>Encabezado H1</h1>
-<h2>Encabezado H2</h2>
-<h3>Encabezado H3</h3>
+<h2 style="background: yellow; padding: 10px; margin: 10px; border: 2px dashed red; border-radius: 10px;">Encabezado H2</h2>
+<h3 id="Encabezados" style="color: red; background: blue; width: 50%; text-align: center;">Encabezado H3</h3>
 <h4>Encabezado H4</h4>
 <h5>Encabezado H5</h5>
 <h6>Encabezado H6</h6>
@@ -103,8 +103,102 @@
         <label> Archivo </label><br>
         <input type="file">
         <br><br>
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" class="boton">
     </fieldset>
 </form>
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+    div,form,table {
+        background-color: #fff;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #2485b3;
+    }
+    img {
+        width: 300px;
+        border-radius: 10px;
+        display: block;
+        margin:  auto;
+    }
+    ul,ol {
+        padding-left: 30px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    th {
+       background-color: #2485b3;
+        color: #fff;
+        padding: 10px;
+    }
+    td {
+        background-color: #2485b3;
+        color: #441b1b;
+        padding: 10px;
+    }
+    a {
+        color: #2485b3;
+        text-decoration: none;
+font-weight:bold
+}
+a:hover {
+        text-decoration: underline;
+        color: #f70202;
+    }
+    fieldset {
+        border: 2px solid #2485b3;
+        padding: 20px;
+        border-radius: 8px;
+    }
+    legend {
+        font-weight: bold;
+        color: #24b370;
+        padding: 10px;
+    }
+    label {
+     
+        font-weight: bold;
+    }
+    input,select,textarea {
+        
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    input[type="submit"],input[type="reset"] {
+        background-color: #2485b3;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    .boton {
+        background-color: #2485b3;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+
+
+
+
+
+
 </body>
 </html>
